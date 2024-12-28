@@ -7,10 +7,7 @@ public class Program {
 System.out.println("Hello from Yoll Application");
 	}
 public static boolean CanGoCamping (int  temperature) {
-	if (temperature>20) {
-		return true;
-	}else {
-		return false;
-	}
+	return temperature > 20; 
+
 }
 }
